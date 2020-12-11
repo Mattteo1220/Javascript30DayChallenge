@@ -56,7 +56,7 @@
     console.table(people.sort((lastOne, nextOne) => {
         let [aLast, aFirst] = lastOne.split(", ");
         let [bLast, bFirst] = nextOne.split(", ");
-        return aLast > bLast ? -1 : 1;
+        return aLast > bLast ? 1 : -1;
     }));
 
     // 8. Reduce Exercise
